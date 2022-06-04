@@ -1,0 +1,92 @@
+<form class="row g-3" [formGroup]="signupt" (ngSubmit)="handelSignup()">
+  <div class="col-md-6">
+    <label for="inputEmail4" class="form-label" placholder="enter your name"
+      >Email</label
+    >
+    <input
+      type="email"
+      class="form-control"
+      id="inputEmail4"
+      formControlName="email"
+      name="name"
+    />
+  </div>
+
+  <div class="col-md-6">
+    <label
+      for="inputPassword4"
+      class="form-label"
+      placeholder="enter your Password"
+      >Password</label
+    >
+    <input
+      type="password"
+      class="form-control"
+      id="inputPassword4"
+      name="password"
+      formControlName="password"
+    />
+  </div>
+
+  <div class="col-md-6">
+    <label for="inputPhone" class="form-label" placeholder="enter your phone"
+      >phone</label
+    >
+    <input
+      type="number"
+      class="form-control"
+      id="inputPhone"
+      formControlName="phone"
+      name="phone"
+    />
+  </div>
+
+  <div class="col-md-6">
+    <label for="inputPhone" class="form-label" placeholder="enter your address"
+      >address</label
+    >
+    <input
+      type="text"
+      class="form-control"
+      id="inputPhone"
+      formControlName="address"
+      name="address"
+    />
+  </div>
+
+  <div class="col-md-6">
+    <label for="inputPhone" class="form-label" placeholder="enter your name"
+      >name</label
+    >
+    <input
+      type="text"
+      class="form-control"
+      id="inputPhone"
+      formControlName="name"
+      name="name"
+    />
+  </div>
+
+  <div class="col-md-6">
+    <label for="inputPhone" class="form-label" placeholder="enter your userType"
+      >userType</label
+    >
+    <input
+      type="text"
+      class="form-control"
+      id="inputPhone"
+      name="userType"
+      formControlName="userType"
+    />
+  </div>
+
+  <div class="col-12">
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" id="gridCheck" />
+      <label class="form-check-label" for="gridCheck"> Check me out </label>
+    </div>
+  </div>
+  <div class="col-12">
+    <button type="submit" class="btn btn-primary">Sign up</button>
+  </div>
+</form>
